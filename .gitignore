@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Data & Models & Results outputs (keep README files)
+data/*
+!data/README.md
+models/*
+!models/README.md
+results/figures/*
+!results/figures/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
